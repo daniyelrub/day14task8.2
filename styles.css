@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1{
+    color:black
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"],
+input[type="email"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 5px 0 0;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+#submit{
+    color: rgb(1, 1, 12);
+    background-color: rgb(120, 171, 230);
+}
